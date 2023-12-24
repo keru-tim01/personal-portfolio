@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body style="background-color:white;">
+
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="index.html">
+            <h1><span>I</span>no <span>S</span>tart</h1>
+          </a>
+        </div>
+        
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          
+          <div class="navbar">
+            
+            
+            <div class="dropdown">
+              <button class="dropbtn">HOME
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="index.html">home</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div> 
+            <div class="dropdown">
+              <button class="dropbtn">PROJECT 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="https://keru-tim01.github.io/fashion-website-project/index.html#">Fashion-project</a>
+                <a href="#">Rich culture and heritage project</a>
+                <a href="https://inostart.github.io/manegement-projectBD/">Management projectBD</a>
+                <a href="#">Personal Portfolio</a>
+                <a href="#">hostel manegement system</a>
+              </div>
+            </div> 
+            <div class="dropdown">
+              <button class="dropbtn">CAREER 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">jobs</a>
+                
+              </div>
+            </div> 
+            <div class="dropdown">
+              <button class="dropbtn">PROFILE 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="resume.html">About me</a>
+                
+              </div>
+            </div> 
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Sakshi<span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 1</h1>
+            <h2>Rich Culture & Heritage Project</h2>
+            <p>This Project is a complete web-based application designed with HTML, CSS. The main aim of the project is to promote rich culture and heritage. As the people in India are getting further from their cultural roots. Our web application that keeps the factual data about cultural heritage would play an important role in spreading awareness about the cultural places and events around the nation. For a user who is willing to know about a specific culture, heritage of that culture and their traditions all this information will be available by launching a simple query. </p>
+          </div>
+          <div class="project-img">
+            <img src="img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 2</h1>
+            <h2>Hostel Manegement System</h2>
+            <p>The Hostel Management System is a software application designed to streamline and automate the management processes of a hostel or similar accommodation facility. It provides a centralized platform for managing various aspects of hostel operations, including student registration, room allocation, attendance tracking, fee collection, inventory management, and reporting.</p>
+          </div>
+          <div class="project-img">
+            <img src="img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 3</h1>
+            <h2>Spotify Clone</h2>
+            <p>The Spotify Clone project aims to develop a music streaming application that replicates the core features and functionalities of the popular music streaming platform, Spotify. The clone will provide users with an intuitive and engaging music streaming experience, allowing them to discover, search, play, and organize their favorite music tracks and playlists.!</p>
+          </div>
+          <div class="project-img">
+            <img src="img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 4</h1>
+            <h2>Fashion Web</h2>
+            <p>The Fashion Website project aims to create an online platform that showcases fashion products, trends, and styles. It provides a user-friendly interface for visitors to browse, search, and purchase fashion items, while also offering features that promote engagement and provide an immersive fashion experience.!</p>
+          </div>
+          <div class="project-img">
+            <img src="img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 5</h1>
+            <h2>Web Scraping</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="img-1.png" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="phone.png"></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+918889902238</h2>
+            <h2>+918319932442</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="email.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>sakshiahirwar2810@gmail.com</h2>
+            <h2>sakshiahirwar2001@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="address.jpeg" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Madhya Pradesh,India</h2>
+          </div>
+        </div>
+      </div>
+      <section class="contact" id="contact">
+      <div class="row">
+
+        <form action="">
+          <h3 class="section-title">GET <span> IN </span> TOUCH</h3>
+            <div class="inputBox">
+                <input type="text" placeholder="your name">
+                <input type="email" placeholder="your email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="your number">
+                <input type="text" placeholder="your subject">
+            </div>
+            <textarea placeholder="your message" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+  
+       
+  </div>
+</section>
+    </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+  
+
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>I</span>no <span>S</span>tart</h1>
+      </div>
+      <h2>Your Complete Web Solution</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.facebook.com/profile.php?id=100076541330511"><img src="fb.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://instagram.com/sakshi_ahi28?igshid=MzNlNGNkZWQ4Mg=="><img src="instra.png" /></a>
+        </div>
+       
+        <div class="social-item">
+          <a href="https://www.linkedin.com/in/sakshi-ahirwar-a280a4244"><img src="link.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://github.com/Inostart"><img src="github.png" /></a>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+  <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
+    
+</body>
+
+</html>
